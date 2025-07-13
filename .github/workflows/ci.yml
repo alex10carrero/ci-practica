@@ -1,6 +1,7 @@
 name: CI básico
 
-on:[push]
+on:
+  [push]
 
 jobs:
   build:
