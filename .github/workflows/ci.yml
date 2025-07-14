@@ -10,8 +10,8 @@ jobs:
     steps:
     - name: Clonar el repositorio
 ​      uses: actions/checkout@v3 
-    
-    - name: Verificar que el repositorio se clono 
+
+​    - name: Verificar que el repositorio se clono 
 ​      run: ls -la 
 
 ​    - name: Mensaje simulado 
